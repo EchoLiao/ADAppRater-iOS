@@ -207,6 +207,10 @@
  */
 -(void)directUserToAppStore;
 
+- (void)promptFeedbackRequestAlertFromViewController:(__weak UIViewController*)viewController;
+
+- (void)presentFeedbackMailComposerFromViewController:(__weak UIViewController*)viewController;
+
 #pragma mark - Developer Tools
 
 ///---------------------
